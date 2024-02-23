@@ -16,6 +16,9 @@ export default function App() {
   function handleNext() {
     if (step < 3) setStep((s) => s + 2);
   }
+  function handle() {
+    return 0;
+  }
 
   return (
     <div>
